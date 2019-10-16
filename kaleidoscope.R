@@ -19,7 +19,7 @@ kaleidoscope <- function(t, lamda=4, butterflies=10,
     tiltFactor <- sample(c(1,4,10,13,14), 1)  # tried numbers up to 20; 2,6 removed from 12*pi/4 scenario
     tilt <- max(t)/ tiltFactor
     butterflyi$x <- with(butterflyi, x*cos(tilt) + y*sin(tilt))
-    butterflyi$y <- with(butterflyi, x*sin(tilt) - y*cos(tilt))
+    butterflyi$y <- with(butterflyi, x*sin(tilt) + y*cos(tilt))
     
     # Add supporting information & color for plotting
     butterflyi$id <- i
