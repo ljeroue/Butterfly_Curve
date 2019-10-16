@@ -1,7 +1,5 @@
 # Butterfly Curve
-Discovered by Temple Fay in 1989
-
-where lamda = 4 and 0 <= t <= 12pi
+Discovered by Temple Fay in 1989, the curve is a set of parametric equations where lamda = 4 and 0 <= t <= 12pi
 
 ### Plot the butterfly
 ```
@@ -33,5 +31,5 @@ points(y ~ x, data= butterflyCurve(t), pch=20, cex=0.5, col="cornsilk", bty="n",
 ![Butterfly Curve Art Output:](kaleidoscopeImage.png)
 
 <p align="center">
-:honeybee: :honeybee: :butterfly:
+:butterfly::butterfly::butterfly:
 </p>
