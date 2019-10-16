@@ -28,6 +28,6 @@ df <- kaleidoscope(t, paint=paint, butterflies = 35)
 plot(y ~ x, data=df, pch=20, cex=0.5, col=df$paint, bty="n", xaxt='n', yaxt='n')
 ```
 
-![](link-to-image)
+![Butterfly Curve Art Output:](kaleidoscopeImage.png)
 
 :honeybee:
