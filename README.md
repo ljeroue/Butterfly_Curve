@@ -33,5 +33,5 @@ points(y ~ x, data= butterflyCurve(t), pch=20, cex=0.5, col="cornsilk", bty="n",
 ![Butterfly Curve Art Output:](kaleidoscopeImage.png)
 
 <p align="center">
-:honeybee: :honeybee: :honeybee:
+:honeybee: :honeybee: :butterfly:
 </p>
