@@ -1,6 +1,7 @@
 # Butterfly Curve
-Discovered by Temple Fay/
-Where lamda = 4 and 0 <= t <= 12pi
+Discovered by Temple Fay in 1989
+
+where lamda = 4 and 0 <= t <= 12pi
 
 ### Plot the butterfly
 ```
@@ -30,4 +31,6 @@ plot(y ~ x, data=df, pch=20, cex=0.5, col=df$paint, bty="n", xaxt='n', yaxt='n')
 
 ![Butterfly Curve Art Output:](kaleidoscopeImage.png)
 
-:honeybee:
+<p align="center">
+:honeybee: :honeybee: :honeybee:
+</p>
