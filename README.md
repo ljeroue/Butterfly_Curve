@@ -1,10 +1,6 @@
 # Butterfly Curve
 Discovered by Temple Fay in 1989, the curve is a set of parametric equations where lamda = 4 and 0 <= t <= 12pi
 
-x=\sin(t)\left(e^{\cos(t)}-2\cos(4t)-\sin ^{5}\left({t \over 12}\right)\right)
-{\displaystyle y=\cos(t)\left(e^{\cos(t)}-2\cos(4t)-\sin ^{5}\left({t \over 12}\right)\right)}y=\cos(t)\left(e^{\cos(t)}-2\cos(4t)-\sin ^{5}\left({t \over 12}\right)\right)
-{\displaystyle 0\leq t\leq 12\pi }{\displaystyle 0\leq t\leq 12\pi }
-
 ### Plot the butterfly
 ```
 t <-  seq(0,(12*pi)/4, 0.01) # for one set of wings
