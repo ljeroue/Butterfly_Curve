@@ -23,10 +23,11 @@ for(i in lamda){
 ### Plot a collection of butterflies (also know as a kaleidoscope of butterflies)
 ```
 paint <- c("blueviolet","blue3","blue2","royalblue4","royalblue2","navyblue","deepskyblue4","deepskyblue2",
-           "cornsilk","dodgerblue4", "dodgerblue3","dodgerblue1","lightskyblue","steelblue","turquoise3")
-t <-  seq(0,(12*pi)/4, 0.01)
-df <- kaleidoscope(t, paint=paint, butterflies = 35)
-plot(y ~ x, data=df, pch=20, cex=0.5, col=df$paint, bty="n", xaxt='n', yaxt='n')
+           "dodgerblue4", "dodgerblue3","dodgerblue1","lightskyblue","steelblue","turquoise3")
+t <-  seq(0,(12*pi), 0.01)
+df <- kaleidoscope(t, paint=paint, butterflies = 30)
+plot(y ~ x, data=df, pch=20, cex=0.5, col=df$paint, bty="n", xaxt='n', yaxt='n', xlab="", ylab="")
+points(y ~ x, data= butterflyCurve(t), pch=20, cex=0.5, col="cornsilk", bty="n", xaxt='n', yaxt='n', xlab="", ylab="")
 ```
 
 ![Butterfly Curve Art Output:](kaleidoscopeImage.png)
